@@ -1,0 +1,21 @@
+{
+  "name": "diary",
+  "version": "1.0.0",
+  "description": "A simple application",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "Washington Kimani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.0.0",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}
