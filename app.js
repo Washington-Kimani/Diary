@@ -3,6 +3,8 @@ const app = express();
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const methodOverride = require('method-override');
+require('dotenv');
+dotenv.config();
 
 const port = process.env.PORT || 5000
 
